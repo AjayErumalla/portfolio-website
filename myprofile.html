@@ -2,28 +2,153 @@
 <html>
     <head>
         <title>My Portfolio</title>
+        <style>
+            body{
+                background-color:gray;
+            }
+            h1{
+                text-align:center;
+            }
+            h3{
+                background-color:#20B2AA;
+                color:#dc143c;
+            }
+            p{
+                font-size: 25px;
+                font-family: arial;
+            }
+            h2{
+                color:#ff1493;
+                background-color: #d1e2f6;
+            }
+            ol{
+                color:tan;
+                border: 4px dotted brown;
+            }
+            ul{
+                color:lightgreen;
+                border: double green;
+            }
+            div{
+                background-color:white;
+                color:black;
+                border:5px solid orange;
+            }
+            span{
+                font-size: 36px;
+                color:white;
+                background-color:#0a885a;
+                width:400px;
+                height:300px;
+            }
+
+            p{
+                 background-color:burlywood;
+                margin-top:100px;
+                padding:20px;
+                display:inline-block;
+            }
+            #exp{
+                text-align:center;
+                color: #ffd700;
+            }
+            table{
+        
+                color:violet;
+                }
+                th{
+                    color:cyan;
+                     padding:5px;
+                }
+              .sno{
+                    padding:5px;
+                    color:white;
+                    font-weight: bold;
+              }
+                
+                #off{
+                    color:lightyellow;
+                }
+                
+                .li1{
+                    color:#00ffff;
+                }
+                .li2{
+                    color:#90ee90;
+                }
+                hr{
+                    border-color:red;
+                }
+                img{
+                    width:165px;
+                    height:140px;
+                    padding-top:60px;
+                    padding-left:35px;
+                    }
+        </style>
+        </head>
         <body>
-            <h1 style="color:lightgreen; text-align:center">Ajay Erumalla</h1>
+        
+            <div>
+                 
+                <img src="https://tap.ibhubs.in/assets/static/ibhubs_logo.png"
+                    alt="iBHUBS logo"> <h1>Ajay Erumalla</h1>
+         </div>
+         <div class="skyblue">
+             <p class="graduate">
+                 I am tech enthusiast.
+             </p>
+             <span>
+                 Iam learning responsive web design.
+             </span>
+         </div>
             <h2>About me:</h2>
-            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            
+            
+            <>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             &nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;I'm a Frontend Developer, i have some knowledge in backend works, and eagar to learn new technologies.</p>
+            &nbsp;
+            I'm a <strong><em>Frontend Developer</em></strong>, i have some knowledge in <strong><em>backend works</em></strong>, 
+            and eagar to learn <em>new technologies</em>.<>
       <h3>Skills:</h3>
-      <ol type="i">
-          <li>Html.</li>
-          <li>Css.</li>
-          <li>Bootstrap.</li>
-          <li>Basics of Computer Networks.</li>
-          <li>C-lang.</li>
+      <ol type ="i">
+          <li class="li1">Html.</li>
+          <li class="li2">Css.</li>
+          <li class="li1">Bootstrap.</li>
+          <li class="li2">Basics of Computer Networks.</li>
+          <li class="li1">C-lang.</li>
       </ol>
       <h3>Hobbies:</h3>
       <ul type="circle">
-          <li>Playing Table Tennis.</li>
-          <li>Cricket.</li>
-          <li>Riding.</li>
+          <li class="li2">Playing Table Tennis.</li>
+          <li class="li1">Cricket.</li>
+          <li class="li2">Riding.</li>
       </ul>
+      <hr>
+     <h3 id="exp">Professional Experience:</h3>
+          <table align="center" border="2" border-collapse="collapse">
+    <tr border="12">
+        <th>S NO</th>
+        <th>Name</th>
+        <th>Company</th>
+        <th>Experience</th>
+        <th>Edu.</th>
+    </tr>
+    <tr>
+        <td class="sno">1</td>
+        <td style="color:red" rowspan="2">Ajay E</td>
+        <td id="off"><strong>Google</strong></td>
+        <td id="off">2 Years From 2016-Jun to 2018 Nov</td>
+        <td style="color:red" rowspan="2">B.E</td>
+        
+    </tr>
+    <tr>
+        <td class="sno">2</td>
+        <td><em></im><strong>iB HUBS</strong></em></td>
+        <td>9 Months From 2018 Nov to Till</td>
+    </tr>
+</table>
         </body>
-    </head>
 </html>
