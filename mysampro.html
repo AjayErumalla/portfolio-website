@@ -6,9 +6,6 @@
             body{
                 background-color:gray;
             }
-            h1{
-                text-align:center;
-            }
             h3{
                 background-color:#20B2AA;
                 color:#dc143c;
@@ -23,16 +20,20 @@
             }
             ol{
                 color:tan;
-                border: 4px dotted brown;
             }
             ul{
                 color:lightgreen;
-                border: double green;
             }
             div{
-                background-color:white;
-                color:black;
+                background-color:black;
+                color:white;
                 border:5px solid orange;
+            }
+            .info{
+                border:4px solid slateblue;
+                background-color: mediumseagreen;
+                font-size:36px;
+                color:tomato;
             }
             span{
                 font-size: 36px;
@@ -41,55 +42,39 @@
                 width:400px;
                 height:300px;
             }
-
-            p{
-                 background-color:burlywood;
-                margin-top:100px;
-                padding:20px;
-                display:inline-block;
-            }
             #exp{
                 text-align:center;
                 color: #ffd700;
             }
             table{
-        
                 color:violet;
                 }
                 th{
                     color:cyan;
-                     padding:5px;
+                    padding:5px;
                 }
-              .sno{
+                .sno{
                     padding:5px;
                     color:white;
                     font-weight: bold;
-              }
-                
+                }
                 #off{
+                    padding:20px;
                     color:lightyellow;
                 }
-                
                 .li1{
                     color:#00ffff;
                 }
                 .li2{
                     color:#90ee90;
                 }
-                img{
-                    width:165px;
-                    height:140px;
-                    padding-top:60px;
-                    padding-left:35px;
-                    }
         </style>
         </head>
         <body>
-        
             <div>
-                 
-                <img src="https://tap.ibhubs.in/assets/static/ibhubs_logo.png"
-                    alt="iBHUBS logo"> <h1>Ajay Erumalla</h1>
+                <br>
+         <h1 style="text-align:center">Ajay Erumalla</h1>
+         <br>
          </div>
             <h2>About me:</h2>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -97,8 +82,9 @@
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             &nbsp;&nbsp;&nbsp;&nbsp;
             &nbsp;
-            I'm a <strong><em>Frontend Developer</em></strong>, i have some knowledge in <strong><em>backend works</em></strong>, 
-            and eagar to learn <em>new technologies</em>.</p>
+            <div class="info">
+            I'm a <strong><em><span>Frontend Developer</span></em></strong>, i have some knowledge in <strong><em><span>backend works</span></em></strong>, 
+            and eagar to learn <em><span>new technologies</span></em>.</p></div>
       <h3>Skills:</h3>
       <ol type ="i">
           <li class="li1">Html.</li>
@@ -113,10 +99,10 @@
           <li class="li1">Cricket.</li>
           <li class="li2">Riding.</li>
       </ul>
-      <hr>
      <h3 id="exp">Professional Experience:</h3>
-          <table align="center" border="2" border-collapse="collapse">
-    <tr border="12">
+     
+      <table align="center" border="2" border-collapse="collapse">
+    <tr>
         <th>S NO</th>
         <th>Name</th>
         <th>Company</th>
@@ -137,5 +123,7 @@
         <td>9 Months From 2018 Nov to Till</td>
     </tr>
 </table>
+<img src="https://tap.ibhubs.in/assets/static/ibhubs_logo.png"
+alt="iBHUBS logo">
         </body>
 </html>
