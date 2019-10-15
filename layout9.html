@@ -13,29 +13,28 @@
         <script src="bootstrap/bootstrap.min.js"></script>
         <style>
             .container {
+
                 margin-top: 30px;
+                padding-left: 60px;
+                padding-right: 60px;
             }
 
             .orange {
-                width: 5px;
                 height: 100px;
                 background-color: orange;
             }
 
             .green {
-                width: 5px;
                 height: 100px;
                 background-color: green;
             }
 
             .purple {
-                width: 5px;
                 height: 100px;
                 background-color: #000080;
             }
 
             .violet {
-                width: 5px;
                 height: 100px;
                 background-color: slateblue;
             }
@@ -45,12 +44,35 @@
     <body>
         <div class="container">
             <h5>Assignment 10</h5>
-            <div class="row ">
+            <!--  <div class="row ">
                 <div class="col-6 orange order-1 col-md-4 order-md-3 col-lg-4 order-lg-3 col-xl-3 order-xl-4 "></div>
                 <div class="col-6 green order-2 col-md-4 order-md-2 col-lg-4 order-lg-2 col-xl-3 order-xl-3"></div>
                 <div class="col-6 purple order-3 col-md-4 order-md-4 col-lg-4 order-lg-4 col-xl-3 order-xl-1"></div>
                 <div class="col-6 violet order-4 col-md-4 order-md-1 col-lg-4 order-lg-1 col-xl-3 order-xl-2"></div>
+            </div> -->
+            <div class="row d-md-none">
+                <div class="col-6 orange"></div>
+                <div class="col-6 green"></div>
             </div>
+            <div class="row d-md-none">
+                <div class="col-6 purple"></div>
+                <div class="col-6 violet"></div>
+            </div>
+            <div class="row d-xs-none">
+                <div class="col-4 violet"></div>
+                <div class="col-4 green"></div>
+                <div class="col-4 orange"></div>
+            </div>
+            <div class="row d-xs-none">
+                <div class="col-4 purple"></div>
+            </div>
+            <div class="row d-xs-none d-md-none ">
+                <div class="col-3 purple"></div>
+                <div class="col-3 violet"></div>
+                <div class="col-3 green"></div>
+                <div class="col-3 orange"></div>
+            </div>
+
         </div>
     </body>
 
