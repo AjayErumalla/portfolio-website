@@ -15,11 +15,14 @@
                 margin: 20px;
             }
 
-            p {
+            .lightcolor {
                 margin-top: 35px;
+                color: gray;
+                font-weight: 350;
             }
 
             .u {
+
                 border-bottom: 3px solid blue;
             }
 
@@ -51,7 +54,7 @@
     <body>
         <div class="fluid-container">
             <div class="row">
-                <div class="col-6">
+                <div class="col-sm-12 order-sm-1 col-md-6 order-md-1">
                     <h4> About <b class="u">Me</b></h5>
                         <br>
                         <h5 class="vrlne">I'm a <strong><em>Frontend Developer</em></strong>, i have some knowledge in <strong><em>backend works</em></strong>, and eagar to learn <em>new technologies</em>.</h5>
@@ -64,9 +67,9 @@
                         </div>
                 </div>
 
-                <div class="col-1"></div>
+                <div class="col-sm-12 order-sm-2 col-md-6 order-md=2"></div>
                 <div class="col-5">
-                    <p>A card is a flexible and extensible content container. It includes options for headers and footers. If you’re familiar with Bootstrap 3, cards replace our old panels, wells, and thumbnails.<br><br>Similar functionality to those components
+                    <p class="lightcolor">A card is a flexible and extensible content container. It includes options for headers and footers. If you’re familiar with Bootstrap 3, cards replace our old panels, wells, and thumbnails.<br><br>Similar functionality to those components
                         is available as modifier classes for cards.</p>
                 </div>
             </div>
@@ -101,3 +104,53 @@
     </body>
 
 </html>
+
+<!-- <div class="fluid-container">
+            <div class="row">
+                <div class="col-6">
+                    <h4> About <b class="u">Me</b></h5>
+                        <br>
+                        <h5 class="vrlne">I'm a <strong><em>Frontend Developer</em></strong>, i have some knowledge in <strong><em>backend works</em></strong>, and eagar to learn <em>new technologies</em>.</h5>
+                        <br>
+                        <div class="row">
+                            <div class="col-2"><a href="#" class="btn btn-primary btn-sm" tabindex="-1" role="button">Contact Me</a></div>
+                            <div class="col-1"></div>
+                            <div class="col-1"></div>
+                            <div class="col-2"><a href="#" class="btn btn-outline-primary btn-sm" tabindex="-1" role="button">Know More</a></div>
+                        </div>
+                </div>
+
+                <div class="col-1"></div>
+                <div class="col-5">
+                    <p class="lightcolor">A card is a flexible and extensible content container. It includes options for headers and footers. If you’re familiar with Bootstrap 3, cards replace our old panels, wells, and thumbnails.<br><br>Similar functionality to those components
+                        is available as modifier classes for cards.</p>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-2">
+                    <p class="skl">Skills</p>
+                </div>
+
+                <div class="col-3">
+                    <div class="row"><img src="static/Skills/HTML-Icon/html(1).png" alt="HTML"></img>
+                        <p class="lang"> HTML</p>
+                    </div>
+                </div>
+
+                <div class="col-3">
+                    <div class="row"><img src="static/Skills/CSS-Icon/css(1).png" alt="HTML"></img>
+                        <p class="lang"> CSS</p>
+                    </div>
+
+                </div>
+                <div class="col-4">
+                    <div class="row"> <img src="static/Skills/C-Language-Icon/css.png" alt="HTML"></img>
+                        <p class="clang"> C Programing</p>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div> -->
