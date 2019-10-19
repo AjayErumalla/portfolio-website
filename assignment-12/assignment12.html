@@ -23,20 +23,21 @@
         margin-right: auto;
         width: 100%;
         padding-bottom: 30px;
+        padding-top: 10px;
       }
 
       .btimg {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 15%;
+        width: 20%;
       }
 
       .immg {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 50px;
+        width: 40px;
         padding-bottom: 5px;
       }
 
@@ -52,26 +53,35 @@
         padding-left: 50%;
       }
 
-      .brder {
-        : 1px solid gray;
+      .span {
+        text-align: left;
+        margin-left: -20px;
+        padding-top: 11px;
+        font-size: 18px;
+
       }
 
-      span {
-        font-size: 22px;
-        padding-left: 0px;
+      .spn {
+        padding-top: 11px;
       }
 
-      p {
-        text-align: center;
+      .for {
+        padding-left: 10px;
+        font-size: 15px;
+      }
+
+      .in {
+        padding-left: 17px;
+        font-size: 15px;
       }
 
       .play {
-        width: 200px;
+        width: 150px;
       }
 
-      .playy {
-        width: 200px;
-
+      .imgstr {
+        width: 120px;
+        height: 30px;
       }
 
 
@@ -86,13 +96,13 @@
       }
 
       .imgdsk {
-        padding-top: 50px;
-        padding-bottom: 50px;
+        padding-top: 15px;
+        padding-bottom: 15px;
       }
 
       .imgbtps {
-        padding-top: 25px;
-        padding-bottom: 25px;
+        padding-top: 5px;
+        padding-bottom: 5px;
       }
 
       .bgcolor {
@@ -111,67 +121,75 @@
       }
 
       .footimg {
-        width: 30%;
-        padding-right: 0px;
+        /*width: 100%;
+        padding-right: 0px;*/
+        height: 15px;
+        width: 15px;
       }
 
       .help {
-        padding-left: 0px;
+        margin-left: -10px;
+      }
+
+      .dd {
+        padding-bottom: 5px;
+      }
+
+      .pdd {
+        pdding-left: 0px;
+        font-size: 10px;
+        pading-right: 0px;
+      }
+
+      .pddd {
+        padding-right: 8px;
       }
     </style>
   </head>
 
   <body>
     <div class="container">
-
       <div class="row">
         <div class="col-12">
           <div class="row">
-            <div class="col-1">
+            <div class="col-2">
               <img class="immg" src="assets/logo-gmail.png">
               </img>
             </div>
-            <div class="col-6"><span class="col-1">Gmail</span></div>
-            <!--<div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>-->
-            <div class="col-3">
+            <div class="col-6">
+              <div class="col-1 span">Gmail</div>
+            </div>
+
+            <div class="col-3 spn">
               <button type="button" class="btn btn-primary btn-sm">Get Gmail</button>
             </div>
           </div>
-          <hr>
-          <div class="row">
-            <div class="col-3">
-              <p> For Work</p>
-            </div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-3">
-              <p>Sign in</p>
-            </div>
-            <div class="col-1"></div>
-          </div>
-
         </div>
       </div>
-
+      <hr>
+      <div class="row">
+        <div class="col-5">
+          <p class="for">For Work</p>
+        </div>
+        <div class="col-1"></div>
+        <div class="col-1"></div>
+        <div class="col-1"></div>
+        <div class="col-4">
+          <p class="in">Sign in</p>
+        </div>
+      </div>
 
       <div class="row bgcolor">
         <div class="col-12 h1p">
           <h1>Get more done with Gmail</h1>
           <p>Now more secure, smarter and easier to use--helping you to save time and do more with your inbox </p>
           <div>
-            <img src="assets/landing-page-image-mobile.png"></img>
+            <img class="imgbtps" src="assets/landing-page-image-mobile.png"></img>
           </div>
+          <br>
           <button type="button" class="btn btn-primary btn-lg">Get Gmail</button>
         </div>
       </div>
-
 
       <div class="row h1p">
         <div class="col-12">
@@ -181,11 +199,13 @@
       </div>
 
       <div class="row">
-        <div class="col-12">
+        <div class="col-12 imgstr">
           <div class="row">
+
             <div class="col-6">
               <img class="play" src="assets/google-playstore.png"></img>
             </div>
+
             <div class="col-6">
               <img class="play" src="assets/app-store.png"></img>
             </div>
@@ -194,7 +214,7 @@
       </div>
 
       <div class="row">
-        <div class="col-12">
+        <div class="col-12 h1p">
           <div>
             <img class="imgdsk" src="assets/experience-image-mobile-desktop.png"></img>
           </div>
@@ -230,8 +250,8 @@
 
       <div class="row bgcolor">
         <div class="col-12 h1p">
-          <h2>Avoid suspicious mails</h2>
-          <p>Gmail blocks 99.9% of dangerous emails before they reach you. If we think something seems phish-y,you will get a warning</p>
+          <h2>Avoid suspicious emails</h2>
+          <p>Gmail blocks 99.9% of dangerous emails before they reach you. If we think something seems phish-y,you will get a warning.</p>
           <img src="assets/avoid-suspicious-emails-mobile.png"></img>
         </div>
       </div>
@@ -241,7 +261,7 @@
       <div class="row">
         <div class="col-12 h1pp">
           <img class="btimg" src="assets/logo-gmail.png"></img>
-          <h2 class="h1pp">Get Started With Email</h2>
+          <h3 class="h1pp">Get Started With Gmail</h3>
           <button type="button" class="btn btn-primary btn-lg">Get Gmail</button>
         </div>
       </div>
@@ -250,24 +270,24 @@
         <div class="col-12">
           <h4>Google</h4>
         </div><br>
-        <div class="col-2">Privacy</div>
-        <div class="col-2">Terms</div>
-        <div class="col-4">About Google</div>
-        <div class="col-4">Google Products</div>
-        <div class="col-12">Our Policy</div>
-        <br>
-        <div class="col-3 foot"><img class="footimg" src="assets/question-mark.png"></img>
+        <div class="col-2 pdd">Privacy</div>
+        <div class="col-2 pdd">Terms</div>
+        <div class="col-4 pdd">About Google</div>
+        <div class="col-4 pdd">Google Products</div>
+        <div class="col-12 foot">Our Policy</div>
+        <div class="col-1"><img class="footimg" src="assets/question-mark.png"></img>
         </div>
-        <div class="col-3 foot">Help</div>
-        <div class="col-3 foot">English(India)</div>
-        <div class="col-1"></div>
-        <div class="col-2 dropdown">
+        <div class="col-2 help foot">Help</div>
+        <div class="col-6 foot">English(India)</div>
+        <!--<div class="col-1"></div>-->
+        <div class="col-1 foot dropdown">
           <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
   </button>
         </div>
+        <div class="col-1"></div>
+        <div class="col-1"></div>
       </div>
     </div>
-
   </body>
 
 </html>
@@ -298,4 +318,13 @@
         <img class="play" src="assets/app-store.png"></img>
 
       </div>
-    </div> -->
+    </div> 
+    
+    assignment-12/assignment12
+    -->
+
+<!--<div class="col-1"></div>
+            <div class="col-1"></div>
+            <div class="col-1"></div>
+            <div class="col-1"></div>
+            <div class="col-1"></div>-->
