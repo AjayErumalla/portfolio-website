@@ -10,7 +10,7 @@
     <script src="../bootstrap/bootstrap.min.js"></script>
     <style>
       .container {
-        padding: 15px;
+        padding: 0px;
       }
 
       hr {
@@ -55,24 +55,36 @@
 
       .span {
         text-align: left;
-        margin-left: -20px;
+        margin-left: 10px;
         padding-top: 11px;
         font-size: 18px;
 
       }
 
-      .spn {
+      .span1 {
+        text-align: left;
         padding-top: 11px;
+        margin-left: -10px;
+        font-size: 18px;
+
+      }
+
+      .spn {
+        top: 11px;
+        right: 05px;
+        position: absolute;
       }
 
       .for {
-        padding-left: 10px;
+        padding-left: 9px;
         font-size: 15px;
+
       }
 
       .in {
-        padding-left: 17px;
+        right: 20px;
         font-size: 15px;
+        position: absolute;
       }
 
       .play {
@@ -122,9 +134,8 @@
 
       .footimg {
         width: 50%;
-        /*  padding-right: 0px;
-        height: 15px;
-        width: 15px;*/
+        padding-left: 0px;
+        padding-right: 0px;
       }
 
       .help {
@@ -136,161 +147,430 @@
       }
 
       .pdd {
-        pdding-left: 0px;
-        font-size: 10px;
-        pading-right: 0px;
+        text-align: left;
+        font-size: 8px;
       }
 
       .pddd {
         padding-right: 8px;
+      }
+
+      /* tab */
+
+      .dskpd2 {
+        padding: 120px 50px;
+      }
+
+      .dskimgbtps {
+        padding-top: 60px;
+        padding-bottom: 60px;
+
+      }
+
+      .dskpd3 {
+        padding: 120px 20px;
+      }
+
+      .dskimgbtps3 {
+        padding-top: 90px;
+        padding-bottom: 60px;
+
+      }
+
+      .dskbgcolor2 {
+        padding-top: 70px;
+        padding-bottom: 70px;
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+
+      .bordrt {
+        border-right: 20px solid white;
+      }
+
+      .btimg2 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 15%;
+        padding: 30px 20px;
+      }
+
+      .h1pp2 {
+        text-align: center;
+        padding-bottom: 30px;
+      }
+
+      .h1p2 {
+        padding-top: 90px;
+        padding-bottom: 90px;
+      }
+
+      .pdd2 {
+        font-size: 10px;
+        text-align: left;
+      }
+
+      .footimg2 {
+        width: 70%;
+        padding-bottom: 20px;
+      }
+
+      .imgg2 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40px;
+        padding-bottom: 5px;
+      }
+
+      .dskmg {
+        text-align: right;
+        position: absolute;
+        right: 0px;
+        margin-top: 10px;
       }
     </style>
   </head>
 
   <body>
     <div class="container">
-      <!--  <div class="row">
+      <div class="row">
         <div class="col-12">
+
+          <div class="row d-block d-md-none">
+            <div class="col-12">
+              <div class="row">
+                <div class="col-2">
+                  <img class="immg" src="assets/logo-gmail.png">
+                  </img>
+                </div>
+                <div class="col-6">
+                  <div class="col-1 span">Gmail</div>
+                </div>
+
+                <div class="col-3 spn">
+                  <button type="button" class="btn btn-primary btn-sm">Get Gmail</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr class="d-block d-md-none">
+          <div class="row d-block d-md-none">
+            <div class="col-5">
+              <p class="for">For Work</p>
+            </div>
+            <div class="col-1"></div>
+            <div class="col-1"></div>
+            <div class="col-1"></div>
+            <div class="col-4">
+              <p class="in">Sign in</p>
+            </div>
+          </div>
+
+
+
+          <!--
+
+          <div class="row d-block d-md-none">
+            <div class="col-12">
+              <div class="row">
+                <div class="col-1">
+                  <img class="immg" src="assets/logo-gmail.png">
+                  </img>
+                </div>
+                <div class="col-6">
+                  <div class="col-1 span1">Gmail</div>
+                </div>
+
+                <div class="col-3 spn">
+                  <button type="button" class="btn btn-primary btn-sm">Get Gmail</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr class="row d-block d-md-none">
+          <div class="row d-block d-md-none">
+            <div class="col-5">
+              <p class="for">For Work</p>
+            </div>
+            <div class="col-1"></div>
+            <div class="col-1"></div>
+            <div class="col-1"></div>
+            <div class="col-4">
+              <p class="in">Sign in</p>
+            </div>
+          </div>
+
+          <!--medium devices-->
+
+          <div class="row d-none d-md-block">
+            <div class="col-12">
+              <div class="row">
+                <div class="col-6">
+                  <div class="row">
+                    <div class="col-1"> <img class="imgg2" src="assets/logo-gmail.png"></img>
+                    </div>
+                    <div class="col-1 span">Gmail</div>
+                  </div>
+                </div>
+                <div class="col-6 dskmg">
+                  For Work &nbsp;&nbsp;Sign in&nbsp;&nbsp;
+                  <button type="button" class="btn btn-primary btn-sm">create an account</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="row bgcolor d-block d-md-none">
+            <div class="col-12 h1p">
+              <h1>Get more done with Gmail</h1>
+              <p>Now more secure, smarter and easier to use--helping you to save time and do more with your inbox </p>
+              <div>
+                <img class="imgbtps" src="assets/landing-page-image-mobile.png"></img>
+              </div>
+              <br>
+              <button type="button" class="btn btn-primary btn-lg">Get Gmail</button>
+            </div>
+          </div>
+
+          <div class="row bgcolor d-none d-md-block">
+            <div class="col-12">
+              <div class="row">
+                <div class="col-md-6 order-md-1 dskpd2">
+                  <h2>Get more done with Gmail</h2>
+                  <p>Now more secure, smarter and easier to use--helping you to save time and do more with your inbox </p>
+                  <button type="button" class="btn btn-primary btn-xl">create account</button>
+                </div>
+                <div class="col-md-6 order-md-2 h1p">
+                  <img class="dskimgbtps" src="assets/landing-page-image-desktop.png"></img>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="row h1p">
+            <div class="col-12">
+              <h2>Experience Gmail on any device</h2>
+              <p>The easy & simplicity of Gmail, where ever you are.</p>
+            </div>
+          </div>
+
           <div class="row">
-            <div class="col-2">
-              <img class="immg" src="assets/logo-gmail.png">
-              </img>
-            </div>
-            <div class="col-6">
-              <div class="col-1 span">Gmail</div>
-            </div>
+            <div class="col-12 imgstr">
+              <div class="row">
 
-            <div class="col-3 spn">
-              <button type="button" class="btn btn-primary btn-sm">Get Gmail</button>
+                <div class="col-6">
+                  <img class="play" src="assets/google-playstore.png"></img>
+                </div>
+
+                <div class="col-6">
+                  <img class="play" src="assets/app-store.png"></img>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-      </div> -->
-      <hr>
-      <div class="row">
-        <div class="col-5">
-          <p class="for">For Work</p>
-        </div>
-        <div class="col-1"></div>
-        <div class="col-1"></div>
-        <div class="col-1"></div>
-        <div class="col-4">
-          <p class="in">Sign in</p>
-        </div>
-      </div>
 
-      <div class="row bgcolor">
-        <div class="col-12 h1p">
-          <h1>Get more done with Gmail</h1>
-          <p>Now more secure, smarter and easier to use--helping you to save time and do more with your inbox </p>
-          <div>
-            <img class="imgbtps" src="assets/landing-page-image-mobile.png"></img>
-          </div>
-          <br>
-          <button type="button" class="btn btn-primary btn-lg">Get Gmail</button>
-        </div>
-      </div>
-
-      <div class="row h1p">
-        <div class="col-12">
-          <h2>Experience Gmail on any device</h2>
-          <p>The easy & simplicity of Gmail, where ever you are.</p>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-12 imgstr">
           <div class="row">
-
-            <div class="col-6">
-              <img class="play" src="assets/google-playstore.png"></img>
+            <div class="col-12 h1p">
+              <div>
+                <img class="imgdsk" src="assets/experience-image-mobile-desktop.png"></img>
+              </div>
             </div>
+          </div>
 
-            <div class="col-6">
-              <img class="play" src="assets/app-store.png"></img>
+
+          <div class="row bgcolor2 d-block d-md-none">
+            <div class="col-12 h1p">
+              <h2>Stay organized instantly</h2>
+              <p>see whats new at glance and decide what you want to read and respond too</p>
+              <img class="imgdsk" src="assets/stay-organised-instantly-mobile.png"></img>
+            </div>
+          </div>
+
+
+          <div class="row bgcolor2 d-block d-md-none">
+            <div class="col-12 h1p">
+              <h2>Never drop the ball</h2>
+              <p>Get nudges that remains you to follow up and response to message, so that nothing to slip through the cracks</p>
+              <img class="imgbtps" src="assets/never-drop-the-ball-mobile.png"></img>
+            </div>
+          </div>
+
+
+
+          <div class="row d-none d-md-block">
+            <div class="col-12">
+              <div class="row">
+                <div class="col-6 dskbgcolor2 bgcolor  bordrt">
+                  <h2>Stay organized instantly</h2>
+                  <p>see whats new at glance and decide what you want to read and respond to.</p>
+                  <br>
+                  <img class="imgdsk" src="assets/stay-organised-instantly-desktop.png"></img>
+                </div>
+
+                <div class="col-6 dskbgcolor2 bgcolor">
+                  <h2>Never drop the ball</h2>
+                  <p>Get nudges that remains you to follow up and response to message, so that nothing to slip through the cracks</p><br>
+                  <img class="imgbtps" src="assets/never-drop-the-ball-desktop.png"></img>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="row d-block d-md-none">
+            <div class="col-12 h1p">
+              <h2>Take action right from the inbox</h2>
+              <p>view ttachments and RSVP to events and snooze the message and more without opening any email.</p>
+              <img class="imgbtps" src="assets/take-action-mobile.png"></img>
+            </div>
+          </div>
+
+          <div class="row d-none d-md-block">
+            <div class="col-12">
+              <div class="row">
+                <div class="col-6 dskimgbtps">
+                  <h2>Take action right from the inbox</h2>
+                  <p>view ttachments and RSVP to events and snooze the message and more without opening any email.</p>
+                </div>
+                <div class="col-6">
+                  <img class="dskimgbtps" src="assets/take-action-desktop.png"></img>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="row bgcolor d-block d-md-none">
+            <div class="col-12 h1p">
+              <h2>Avoid suspicious emails</h2>
+              <p>Gmail blocks 99.9% of dangerous emails before they reach you. If we think something seems phish-y,you will get a warning.</p>
+              <img src="assets/avoid-suspicious-emails-mobile.png"></img>
+            </div>
+          </div>
+
+
+          <div class="row  d-none d-md-block bgcolor">
+            <div class="col-12">
+              <div class="row">
+                <div class="col-6">
+                  <img class="dskimgbtps3" src="assets/avoid-suspicious-emails-desktop.png"></img>
+                </div>
+                <div class="col-5 dskpd3">
+                  <h2>Avoid suspicious emails</h2>
+                  <p>Gmail blocks 99.9% of dangerous emails before they reach you. If we think something seems phish-y,you will get a warning.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="row d-block d-md-none">
+            <div class="col-12 h1pp">
+              <img class="btimg" src="assets/logo-gmail.png"></img>
+              <h3 class="h1pp">Get Started With Gmail</h3>
+              <button type="button" class="btn btn-primary btn-lg">Get Gmail</button>
+            </div>
+          </div>
+
+          <div class="row d-none d-md-block h1p2">
+            <div class="col-12 h1pp">
+              <img class="btimg2" src="assets/logo-gmail.png"></img>
+              <h2 class="h1pp2">Get Started With Gmail</h2>
+              <button type="button" class="btn btn-primary btn-lg">Create an account</button>
+            </div>
+          </div>
+
+
+
+          <div class="row foot bgcolor d-none d-md-block ">
+            <div class="col-12">
+              <h4>Google</h4>
+            </div>
+            <br>
+            <div class="row">
+              <div class="col-12">
+                <div class="row pdd2">
+                  <div class="col-1">Privacy</div>
+                  <div class="col-1">Terms</div>
+                  <div class="col-2">About Google</div>
+                  <div class="col-2">Google Products</div>
+                  <div class="col-2">Our Policy</div>
+                  <div class="col-1">
+                    <img class="footimg2" src="assets/question-mark.png" alt="Que???"></img>
+                  </div>
+                  <div class="col-1">Help</div>
+                  <div class="col-1">English(India)</div>
+                  <div class="col-1 dropdown">
+                    <button type="button" class="btn bn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="row foot bgcolor d-block d-md-none">
+            <div class="col-12">
+              <h4>Google</h4>
+            </div><br>
+            <div class="col-2 pdd">Privacy</div>
+            <div class="col-2 pdd">Terms</div>
+            <div class="col-4 pdd">About Google</div>
+            <div class="col-4 pdd">Google Products</div>
+            <div class="col-12 foot">Our Policy</div>
+            <div class="col-1">
+              <img class="footimg" src="assets/question-mark.png" alt="Que???"></img>
+            </div>
+            <div class="col-2 help foot">Help</div>
+            <div class="col-6 foot">English(India)</div>
+            <div class="col-1 foot dropdown">
+              <button type="button" class="btn bn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
             </div>
           </div>
         </div>
-      </div>
-
-      <div class="row">
-        <div class="col-12 h1p">
-          <div>
-            <img class="imgdsk" src="assets/experience-image-mobile-desktop.png"></img>
-          </div>
-        </div>
-      </div>
-
-      <div class="row bgcolor2">
-        <div class="col-12 h1p">
-          <h2>Stay organized instantly</h2>
-          <p>see whats new at glance and decide what you want to read and respond too</p>
-          <img class="imgdsk" src="assets/stay-organised-instantly-mobile.png"></img>
-        </div>
-      </div>
-
-
-      <div class="row bgcolor2">
-        <div class="col-12 h1p">
-          <h2>Never drop the ball</h2>
-          <p>Get nudges that remains you to follow up and response to message, so that nothing to slip through the cracks</p>
-          <img class="imgbtps" src="assets/never-drop-the-ball-mobile.png"></img>
-        </div>
-      </div>
-
-
-      <div class="row">
-        <div class="col-12 h1p">
-          <h2>Take action right from the inbox</h2>
-          <p>view ttachments and RSVP to events and snooze the message and more without opening any email.</p>
-          <img class="imgbtps" src="assets/take-action-mobile.png"></img>
-        </div>
-      </div>
-
-
-      <div class="row bgcolor">
-        <div class="col-12 h1p">
-          <h2>Avoid suspicious emails</h2>
-          <p>Gmail blocks 99.9% of dangerous emails before they reach you. If we think something seems phish-y,you will get a warning.</p>
-          <img src="assets/avoid-suspicious-emails-mobile.png"></img>
-        </div>
-      </div>
-
-
-
-      <div class="row">
-        <div class="col-12 h1pp">
-          <img class="btimg" src="assets/logo-gmail.png"></img>
-          <h3 class="h1pp">Get Started With Gmail</h3>
-          <button type="button" class="btn btn-primary btn-lg">Get Gmail</button>
-        </div>
-      </div>
-
-      <div class="row foot bgcolor">
-        <div class="col-12">
-          <h4>Google</h4>
-        </div><br>
-        <div class="col-2 pdd">Privacy</div>
-        <div class="col-2 pdd">Terms</div>
-        <div class="col-4 pdd">About Google</div>
-        <div class="col-4 pdd">Google Products</div>
-        <div class="col-12 foot">Our Policy</div>
-        <div class="col-1"><img class="footimg" src="assets/question-mark.png"></img>
-        </div>
-        <div class="col-2 help foot">Help</div>
-        <div class="col-6 foot">English(India)</div>
-        <!--<div class="col-1"></div>-->
-        <div class="col-1 foot dropdown">
-          <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-  </button>
-        </div>
-        <div class="col-1"></div>
-        <div class="col-1"></div>
       </div>
     </div>
+
   </body>
 
 </html>
+
+<!-- tablett 
+
+      <div class="row">
+        <div class="col-12">
+          <div class="row ">
+            <div class="col-12">
+              <div class="col-2">
+                <img class="immg" src="assets/logo-gmail.png">
+                </img>
+              </div>
+
+              <div class="col-1">
+                <div class="col-1 span">Gmail</div>
+              </div>
+              <div class="col-1">
+                <p class="for">For Work</p>
+              </div>
+              <div class="col-4">
+                <p class="in">Sign in</p>
+              </div>
+              <div class="col-3 spn">
+                <button type="button" class="btn btn-primary btn-lg">create account</button>
+              </div>
+
+            </div>
+          </div>
+-->
+
+
 
 <!-- <div class="row">
         <div class="col-12">
