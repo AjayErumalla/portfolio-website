@@ -53,7 +53,13 @@
         padding-left: 50%;
       }
 
-      .span {
+      span {
+        text-align: right;
+        padding-left: 340px;
+        fot-size: 50px;
+      }
+
+      .span2 {
         text-align: left;
         margin-left: 10px;
         padding-top: 11px;
@@ -82,13 +88,13 @@
       }
 
       .in {
-        right: 20px;
+        padding-right: -20px;
         font-size: 15px;
-        position: absolute;
+
       }
 
       .play {
-        width: 150px;
+        width: 120px;
       }
 
       .imgstr {
@@ -96,11 +102,26 @@
         height: 30px;
       }
 
+      .gstr {
+        margin-right: -10px;
+      }
+
+      .astr {
+        margin-left: -10px;
+      }
+
 
       .h1p {
         text-align: center;
         padding: 40px;
       }
+
+      .h11p {
+        text-align: center;
+        padding: 40px;
+        padding-top: 40px;
+      }
+
 
       .h1pp {
         text-align: center;
@@ -127,13 +148,13 @@
       }
 
       .foot {
-        padding: 20px;
-        pading-left: 0px;
+        padding-left: 20px;
+        padding-top: 10px;
         color: gray;
       }
 
       .footimg {
-        width: 50%;
+        width: 150%;
         margin-bottom: 100px;
         heigt: 15px;
         pading-left: 0px;
@@ -150,17 +171,31 @@
 
       .pdd {
         text-align: left;
-        font-size: 8px;
+        font-size: 10px;
       }
 
       .pddd {
-        padding-right: 8px;
+        padding-top: 12px;
+        font-size: 10px;
+        text-align: left;
+      }
+
+      .bgc {
+        background-color: pink;
       }
 
       /* tab */
 
       .dskpd2 {
         padding: 120px 50px;
+      }
+
+      .dskpd22 {
+        padding-top: 150px;
+        padding-bottom: 90px;
+        padding-left: 50px;
+        padding-right: 50px;
+
       }
 
       .dskimgbtps {
@@ -209,12 +244,13 @@
       }
 
       .pdd2 {
+        padding: 0px;
         font-size: 10px;
         text-align: left;
       }
 
       .footimg2 {
-        width: 45%;
+        width: 5%;
         heigt: 15px;
         padding-botom: -20px;
       }
@@ -233,6 +269,18 @@
         right: 0px;
         margin-top: 10px;
       }
+
+      .tbfoot {
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 10px;
+      }
+
+      .tbbfoot {
+        padding-left: 140px;
+        padding-right: 10px;
+        font-size: 10px;
+      }
     </style>
   </head>
 
@@ -249,7 +297,7 @@
                   </img>
                 </div>
                 <div class="col-6">
-                  <div class="col-1 span">Gmail</div>
+                  <div class="col-1 span2">Gmail</div>
                 </div>
 
                 <div class="col-3 spn">
@@ -258,54 +306,23 @@
               </div>
             </div>
           </div>
+
           <hr class="d-block d-md-none">
-          <div class="row d-block d-md-none">
+
+          <!--  <div class="row d-block d-md-none">
             <div class="col-5">
-              <p class="for">For Work</p>
+              <p class="fr">For Work</p>
             </div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
             <div class="col-4">
-              <p class="in">Sign in</p>
+              <p class="n">Sign in</p>
             </div>
           </div>
-
-
-
-
-
+-->
           <div class="row d-block d-md-none">
             <div class="col-12">
-              <div class="row">
-                <div class="col-1">
-                  <img class="immg" src="assets/logo-gmail.png">
-                  </img>
-                </div>
-                <div class="col-6">
-                  <div class="col-1 span1">Gmail</div>
-                </div>
-
-                <div class="col-3 spn">
-                  <button type="button" class="btn btn-primary btn-sm">Get Gmail</button>
-                </div>
-              </div>
+              <p class="for">For Work <span>Sign in</span></p>
             </div>
           </div>
-          <hr class="row d-block d-md-none">
-          <div class="row d-block d-md-none">
-            <div class="col-5">
-              <p class="for">For Work</p>
-            </div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-4">
-              <p class="in">Sign in</p>
-            </div>
-          </div>
-
-          <!--medium devices-->
 
           <div class="row d-none d-md-block">
             <div class="col-12">
@@ -314,7 +331,7 @@
                   <div class="row">
                     <div class="col-1"> <img class="imgg2" src="assets/logo-gmail.png"></img>
                     </div>
-                    <div class="col-1 span">Gmail</div>
+                    <div class="col-1 span2">Gmail</div>
                   </div>
                 </div>
                 <div class="col-6 dskmg">
@@ -342,7 +359,7 @@
           <div class="row bgcolor d-none d-md-block">
             <div class="col-12">
               <div class="row">
-                <div class="col-md-6 order-md-1 dskpd2">
+                <div class="col-md-6 order-md-1 dskpd22">
                   <h2>Get more done with Gmail</h2>
                   <p>Now more secure, smarter and easier to use--helping you to save time and do more with your inbox </p>
                   <button type="button" class="btn btn-primary btn-xl">create account</button>
@@ -363,20 +380,36 @@
             </div>
           </div>
 
-          <div class="row">
-            <div class="col-12 imgstr">
+          <div class="row d-block d-md-none">
+            <div class="col-12">
               <div class="row">
 
                 <div class="col-6">
-                  <img class="play" src="assets/google-playstore.png"></img>
+                  <img class="play gstr" src="assets/google-playstore.png"></img>
                 </div>
 
                 <div class="col-6">
-                  <img class="play" src="assets/app-store.png"></img>
+                  <img class="play astr" src="assets/app-store.png"></img>
                 </div>
               </div>
             </div>
           </div>
+
+          <div class="row d-none d-md-block">
+            <div class="col-12">
+              <div class="row">
+
+                <div class="col-6">
+                  <img class="play gstr" src="assets/google-playstore.png"></img>
+                </div>
+
+                <div class="col-6">
+                  <img class="play astr" src="assets/app-store.png"></img>
+                </div>
+              </div>
+            </div>
+          </div>
+
 
           <div class="row">
             <div class="col-12 h1p">
@@ -499,6 +532,47 @@
             <br>
             <div class="row">
               <div class="col-12">
+                <span class="tbfoot">Privacy </span>
+                <span class="tbfoot">Terms</span>
+                <span class="tbfoot"> About Google</span>
+                <span class="tbfoot"> Google Products</span>
+                <span class="tbfoot">Our Policy</span>
+                <sn>
+                  <ig class="footimg2" src="assets/question-mark.png" alt="Que???">
+                    </img>
+                    </span>
+                    <span class="tbfoot">Help</span>
+                    <span class="tbfoot">English(India)</span>
+                    <span class="tbbfoot"></span> <button type="button" class="btn bn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+                    </span>
+                    </p>
+                    <!--  <div class="row pdd2">
+                  <div class="col-1">Privacy</div>
+                  <div class="col-1">Terms</div>
+                  <div class="col-2">About Google</div>
+                  <div class="col-2">Google Products</div>
+                  <div class="col-2">Our Policy</div>
+                  <div class="col-1">
+                    <img class="footimg2" src="assets/question-mark.png" alt="Que???"></img>
+                  </div>
+                  <div class="col-1">Help</div>
+                  <div class="col-1">English(India)</div>
+                  <div class="col-1 dropdown">
+                    <button type="button" class="btn bn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+                  </div>
+                </div>-->
+              </div>
+            </div>
+          </div>
+          <!--
+
+          <div class="row foot bgcolor d-none d-md-block ">
+            <div class="col-12">
+              <h4>Google</h4>
+            </div>
+            <br>
+            <div class="row">
+              <div class="col-12">
                 <div class="row pdd2">
                   <div class="col-1">Privacy</div>
                   <div class="col-1">Terms</div>
@@ -518,7 +592,7 @@
             </div>
           </div>
 
-
+-->
           <div class="row foot bgcolor d-block d-md-none">
             <div class="col-12">
               <h4>Google</h4>
@@ -529,20 +603,21 @@
               <div class="col-4 pdd">About Google</div>
               <div class="col-4 pdd">Google Products</div>
             </div>
-            <div class="row foot">
-              <div class="col-12">Our Policy</div>
+            <div class="row foot pdd">
+              <div class="col-12 ">Our Policy</div>
             </div>
             <div class="row foot">
               <div class="col-1">
                 <img class="footimg" src="assets/question-mark.png" alt="Que???"></img>
               </div>
-              <div class="col-2 help">Help</div>
-              <div class="col-6">English(India)</div>
-              <div class="col-1 dropdown">
+              <div class="col-2 foot pddd help">Help</div>
+              <div class="col-6 foot pddd">English(India)</div>
+              <div class="col-1 foot dropdown">
                 <button type="button" class="btn bn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
               </div>
             </div>
           </div>
+
         </div>
       </div>
     </div>
@@ -552,6 +627,39 @@
 </html>
 
 <!-- tablett 
+
+
+          <div class="row d-block d-md-none">
+            <div class="col-12">
+              <div class="row">
+                <div class="col-1">
+                  <img class="immg" src="assets/logo-gmail.png">
+                  </img>
+                </div>
+                <div class="col-6">
+                  <div class="col-1 span1">Gmail</div>
+                </div>
+
+                <div class="col-3 spn">
+                  <button type="button" class="btn btn-primary btn-sm">Get Gmail</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr class="row d-block d-md-none">
+          <div class="row d-block d-md-none">
+            <div class="col-5">
+              <p class="for">For Work</p>
+            </div>
+            <div class="col-1"></div>
+            <div class="col-1"></div>
+            <div class="col-1"></div>
+            <div class="col-4">
+              <p class="in">Sign in</p>
+            </div>
+          </div>
+          --
+
 
       <div class="row">
         <div class="col-12">
@@ -609,7 +717,7 @@
       </div>
     </div> 
     
-    assignment-12/assignment12
+    assignment-12/assignment12.html
     -->
 
 <!--<div class="col-1"></div>
