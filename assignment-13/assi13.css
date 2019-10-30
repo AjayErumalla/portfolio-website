@@ -1,0 +1,123 @@
+.navvbar {
+        background-color: black;
+        color: white;
+}
+
+imogo {
+        background-color: white;
+}
+
+.up {
+        text-align: right;
+        padding-top: 15px;
+}
+
+.exp {
+        text-align: center;
+        color: gray;
+        padding-top: 5px;
+        paddng-bottom: 10px;
+}
+
+.tbfoot {
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 12px;
+        color: gray;
+}
+
+.topic {
+        text-align: center;
+        background-color: lightgray;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-left: 100px;
+        padding-right: 100px;
+        pdding: 40px 100px;
+        margin-bottom: 8px;
+}
+
+.opengl {
+        text-align: center;
+        color: gray;
+        margin: 10px;
+        padding-bottom: 10px;
+        padding-left: 60px;
+        padding-right: 60px;
+        border: 1px solid gray;
+}
+
+.imgopen {
+        width: 55px;
+        padding-top: 20px;
+        padding-bottom: 03px;
+}
+
+.flask {
+        text-align: center;
+        color: gray;
+        margin: 10px;
+        padding-bottom: 10px;
+        padding-left: 60px;
+        padding-right: 60px;
+        border: 1px solid gray;
+}
+
+.gradle {
+        text-align: center;
+        color: gray;
+        margin: 10px;
+        padding-bottom: 10px;
+        padding-left: 60px;
+        padding-right: 60px;
+        border: 1px solid gray;
+}
+
+.fettop {
+        padding-top: 40px;
+        padding-bottom: 20px;
+}
+
+h6 {
+        margin: 10px;
+}
+
+p {
+        margin: 10px;
+        margin-top: -10px;
+}
+
+.pp {
+        margin-left: 10px;
+        margin-top: -12px;
+}
+
+.hash {
+
+        text-align: center;
+        margin-top: 33px;
+
+}
+
+.bdrfea {
+        padding-bottom: 15px;
+        border-bottom: 1px solid gray;
+}
+
+span {
+        background-color: skyblue;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right: 25px;
+        padding-left: 25px;
+}
+
+
+.imgamp {
+        width: 55px;
+}
+
+.imgfea {
+        margin-top: 15px;
+}
