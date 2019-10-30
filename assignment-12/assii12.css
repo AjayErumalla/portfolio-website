@@ -1,0 +1,33 @@
+ .gimg {
+  margin-top: 15px;
+  marin-right: 6px;
+  width: 18%;
+  pading-top: 20px;
+  color: gray;
+ }
+
+ span {
+  pading-top: 30px;
+
+ }
+
+ .bdrbtm {
+  border-bottom: 1px solid gray;
+ }
+
+ .button {
+  text-align: right;
+  padding-top: 20px;
+ }
+
+ .in {
+  text-align: right;
+  padding-top: 10px;
+ }
+
+ .for {
+  text-align: left;
+  padding-top: 10px;
+
+ }
+ 
