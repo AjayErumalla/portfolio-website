@@ -1,20 +1,30 @@
 .navvbar {
-        background-color: black;
+        margin-top: 20px;
+        background-color: gray;
         color: white;
 }
 
-imogo {
-        background-color: white;
+.imglogo {
+        padding-top: 6px;
+        bkground-color: white;
 }
 
 .up {
         text-align: right;
-        padding-top: 15px;
+        padding-top: 5px;
+        padding-bottom: 3px;
+}
+
+.more {
+        display: inline-block;
+        paddng-left: -03px;
+        text-align: right;
 }
 
 .exp {
         text-align: center;
         color: gray;
+        margin-top: 5px;
         padding-top: 5px;
         paddng-bottom: 10px;
 }
@@ -25,16 +35,20 @@ imogo {
         padding-right: 10px;
         font-size: 12px;
         color: gray;
+        margin-bottom: 5px
+}
+
+.topc {
+        border-bottom: 1px solid blue;
+        padding-bottom: 6px;
 }
 
 .topic {
+        color: gray;
         text-align: center;
-        background-color: lightgray;
+        background-color: #f2f2f2;
         padding-top: 40px;
         padding-bottom: 40px;
-        padding-left: 100px;
-        padding-right: 100px;
-        pdding: 40px 100px;
         margin-bottom: 8px;
 }
 
@@ -43,9 +57,7 @@ imogo {
         color: gray;
         margin: 10px;
         padding-bottom: 10px;
-        padding-left: 60px;
-        padding-right: 60px;
-        border: 1px solid gray;
+        border: 1px solid #f2f2f2;
 }
 
 .imgopen {
@@ -59,9 +71,7 @@ imogo {
         color: gray;
         margin: 10px;
         padding-bottom: 10px;
-        padding-left: 60px;
-        padding-right: 60px;
-        border: 1px solid gray;
+        border: 1px solid #f2f2f2;
 }
 
 .gradle {
@@ -69,9 +79,7 @@ imogo {
         color: gray;
         margin: 10px;
         padding-bottom: 10px;
-        padding-left: 60px;
-        padding-right: 60px;
-        border: 1px solid gray;
+        border: 1px solid #f2f2f2;
 }
 
 .fettop {
@@ -102,11 +110,11 @@ p {
 
 .bdrfea {
         padding-bottom: 15px;
-        border-bottom: 1px solid gray;
+        border-bottom: 1px solid #f2f2f2;
 }
 
-span {
-        background-color: skyblue;
+.span {
+        background-color: #e6f9ff;
         padding-top: 20px;
         padding-bottom: 20px;
         padding-right: 25px;
@@ -120,4 +128,23 @@ span {
 
 .imgfea {
         margin-top: 15px;
+}
+
+.load {
+        text-align: center;
+        color: #6a5acd;
+        border: 1px solid #f2f2f2;
+        margin-top: 20px;
+        padding-top: 15px;
+        margin-bottom: 40px;
+}
+
+.button2 {
+        color: #87cefa;
+        background-color: #e6f9ff;
+        border-radius: 3px;
+        border: none;
+        font-size: 09px;
+        margin-right: 4px;
+        margin-bottom: 5px;
 }
