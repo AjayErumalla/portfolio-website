@@ -35,7 +35,7 @@
         padding-right: 10px;
         font-size: 12px;
         color: gray;
-        margin-bottom: 5px
+        margin-bottom: 5px;
 }
 
 .topc {
@@ -147,4 +147,23 @@ p {
         font-size: 09px;
         margin-right: 4px;
         margin-bottom: 5px;
+}
+
+/* tablet */
+
+.texp {
+        margin-top: 13px;
+        margin-bottom: 13px;
+}
+
+.tfoot {
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 14px;
+        color: gray;
+}
+
+.ttopc {
+        border-bottom: 1px solid blue;
+        padding-bottom: 10px;
 }
