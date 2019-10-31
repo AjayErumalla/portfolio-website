@@ -30,4 +30,82 @@
   padding-top: 10px;
 
  }
+
+ .ftbgc {
+  dislay: inline-block;
+  background-color: #f2f2f2;
+  tet-align: center;
+ }
+
+ a {
+  text-decoration: none;
+  color: black;
+ }
+
+ .span {
+  padding-top: 30px;
+  padding-bottom: 35px;
+  padding-left: 15px;
+  padding-right: 5px;
+  display: inline-block;
+  font-size: 13px;
+ }
+
+ .h5 {
+  padding-left: 10%;
+ }
+
+ .que {
+  paddng-right: 0px;
+  padding-left: 80px;
+ }
+
+ .help {
+  padding-left: 0px;
+ }
+
+ .dd {
+  display: inline-block;
+  text-align: right;
+  padding-top: 8px;
+ }
+
+
+ /*TABLET*/
+
+ .mbftrw {
+  display: inline-block;
+  background-color: #f2f2f2;
+
+ }
+
+ .mbfoot {
+  display: inline-block;
+  text-align: left;
+  margin-right: 10px;
+ }
+
+ h5 {
+  text-align: left;
+  display: inline-block;
+  color: gray;
+ }
+
+ .mbftbg {
+  background-color: #f2f2f2;
+ }
+
+ .help {
+  margin-left: -8px;
+ }
+
+ .mobque {
+  width: 18px;
+ }
+
+ .mobdd {
+  display: inline-block;
+  margin-top: -2px;
+  margin-left: 150px;
+ }
  
