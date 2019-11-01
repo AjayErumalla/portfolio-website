@@ -1,3 +1,5 @@
+ /*HEADER*/
+
  .gimg {
   margin-top: 15px;
   marin-right: 6px;
@@ -6,8 +8,8 @@
   color: gray;
  }
 
- span {
-  pading-top: 30px;
+ .gmt {
+  margin-top: 30px;
 
  }
 
@@ -31,37 +33,48 @@
 
  }
 
+ /*DESKTOP Foot*/
+
  .ftbgc {
-  dislay: inline-block;
-  background-color: #f2f2f2;
-  tet-align: center;
+  dispay: inline-block;
+  background-color: #f8f9fa;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+ }
+
+ .dskfoot {
+  display: inline-block;
+
  }
 
  a {
-  text-decoration: none;
-  color: black;
+  color: gray;
  }
 
  .span {
   padding-top: 30px;
   padding-bottom: 35px;
   padding-left: 15px;
-  padding-right: 5px;
+  padding-right: 8px;
   display: inline-block;
   font-size: 13px;
  }
 
+ .our {
+  margin-right: 50px;
+ }
+
  .h5 {
-  padding-left: 10%;
+  pading-left: 10%;
  }
 
  .que {
-  paddng-right: 0px;
-  padding-left: 80px;
+  width: 18px;
  }
 
  .help {
-  padding-left: 0px;
+  margin-left: 0px;
  }
 
  .dd {
@@ -71,32 +84,40 @@
  }
 
 
- /*TABLET*/
+ /*mobile*/
 
  .mbftrw {
   display: inline-block;
-  background-color: #f2f2f2;
-
+  background-color: #f8f9fa;
  }
 
  .mbfoot {
   display: inline-block;
   text-align: left;
-  margin-right: 10px;
+  margin-right: 15px;
+  padding-bottom: 10px;
+  color: gray;
+
  }
 
- h5 {
-  text-align: left;
+ p {
+  margin-left: -15px;
   display: inline-block;
+  text-align: left;
   color: gray;
+  font-size: 20px;
  }
 
  .mbftbg {
-  background-color: #f2f2f2;
+  background-color: #f8f9fa;
+  padding-left: 0px;
+  pading-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 5px;
  }
 
  .help {
-  margin-left: -8px;
+  margin-left: -16px;
  }
 
  .mobque {
@@ -105,7 +126,16 @@
 
  .mobdd {
   display: inline-block;
-  margin-top: -2px;
-  margin-left: 150px;
+  paing-top: -28px;
+  margin-left: 210px;
+ }
+
+ .link {
+  color: gray;
+  font-size: 14px;
+ }
+
+ .content {
+  border: 2px solid black;
  }
  
