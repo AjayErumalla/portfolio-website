@@ -138,4 +138,20 @@
  .content {
   border: 2px solid black;
  }
+
+ /*new mobile*/
+
+ .landing-section {
+  background-color: #f8f9fa;
+ }
+
+ .txt-align {
+  display: inline-block;
+  text-align: center;
+ }
+
+ .mobile-section {
+  padding-left: 15px;
+  padding-right: 15px;
+ }
  
