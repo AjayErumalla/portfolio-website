@@ -1,0 +1,26 @@
+.txt-align {
+    text-align: center;
+}
+
+.landing-image {
+    background-color: #f8f9f2;
+    margin-top: 15px;
+}
+
+.btgm {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.store {
+    width: 50px;
+}
+
+.exp {
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+
+.expimg {
+    width: 100%;
+}
