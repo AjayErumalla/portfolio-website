@@ -1,3 +1,28 @@
+ /* DESKTOP HEADER*/
+
+ .imgg2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+ }
+
+ .span3 {
+  text-align: center;
+  margin-left: 5px;
+  padding-top: 12px;
+ }
+
+ .dskmg {
+  text-align: right;
+  position: absolute;
+  right: 0px;
+  padding-top: 10px;
+ }
+
+
  /*HEADER*/
 
  .gimg {
@@ -13,8 +38,8 @@
 
  }
 
- .bdrbtm {
-  border-bottom: 1px solid gray;
+ .shadow-border {
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, .12), inset 0 -1px 0 0 #dadce0;
  }
 
  .align-right {
@@ -202,6 +227,10 @@
   width: 75px;
  }
 
+ .start-gmail {
+  padding-top: 20px;
+  padding-bottom: 15px;
+ }
 
  /* tablet content */
 
@@ -259,7 +288,7 @@
  }
 
  .action_avoid_section_tab_content {
-  height: 200px;
+  height: 100px;
   margin-bottom: auto;
   margin-top: auto;
  }
@@ -279,12 +308,17 @@
   brder: 2px solid black;
  }
 
- .tablet-section-2-h2p {
-  padding-left: 30px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-
+ .tablet-section-2-h2 {
+  padding-left: 40px;
+  padding-top: 35px;
  }
+
+ .tablet-section-2-p {
+  padding-left: 40px;
+  padding-top: 5px;
+  padding-bottom: 15px;
+ }
+
 
  .tablet-section-2-content {
   background-color: #f2f8fa;
