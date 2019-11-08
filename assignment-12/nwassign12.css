@@ -1,26 +1,295 @@
-.txt-align {
-    text-align: center;
-}
+ /*HEADER*/
 
-.landing-image {
-    background-color: #f8f9f2;
-    margin-top: 15px;
-}
+ .gimg {
+  margin-top: 15px;
+  marin-right: 6px;
+  width: 18%;
+  pading-top: 20px;
+  color: gray;
+ }
 
-.btgm {
-    margin-top: 25px;
-    margin-bottom: 25px;
-}
+ .gmt {
+  margin-top: 30px;
 
-.store {
-    width: 50px;
-}
+ }
 
-.exp {
-    margin-top: 60px;
-    margin-bottom: 80px;
-}
+ .bdrbtm {
+  border-bottom: 1px solid gray;
+ }
 
-.expimg {
-    width: 100%;
-}
+ .align-right {
+  text-align: right;
+  padding-top: 15px;
+ }
+
+ .button {
+  text-align: right;
+  padding-top: 20px;
+ }
+
+ .in {
+  text-align: right;
+  padding-top: 10px;
+ }
+
+ .for {
+  text-align: left;
+  padding-top: 10px;
+
+ }
+
+ /*DESKTOP Foot*/
+
+ .ftbgc {
+  dispay: inline-block;
+  background-color: #f8f9fa;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+ }
+
+ .dskfoot {
+  display: inline-block;
+
+ }
+
+ a {
+  color: gray;
+ }
+
+ .span {
+  padding-top: 30px;
+  padding-bottom: 35px;
+  padding-left: 15px;
+  padding-right: 8px;
+  display: inline-block;
+  font-size: 13px;
+ }
+
+ .our {
+  margin-right: 50px;
+ }
+
+ .h5 {
+  pading-left: 10%;
+ }
+
+ .que {
+  width: 18px;
+ }
+
+ .help {
+  margin-left: 0px;
+ }
+
+ .dd {
+  display: inline-block;
+  text-align: right;
+  padding-top: 8px;
+ }
+
+
+ /*mobile*/
+
+ .mbftrw {
+  display: inline-block;
+  background-color: #f9f8fa;
+ }
+
+ .mbfoot {
+  display: inline-block;
+  text-align: left;
+  margin-right: 15px;
+  padding-bottom: 10px;
+  color: gray;
+
+ }
+
+ ppp {
+  margin-left: -15px;
+  display: inline-block;
+  text-align: left;
+  color: gray;
+  font-size: 20px;
+ }
+
+ .footer_section {
+  background-color: #f8f9fa;
+  padding-left: 0px;
+  pading-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  margin-top: 20px;
+ }
+
+ .help {
+  margin-left: -16px;
+ }
+
+ .mobque {
+  width: 18px;
+ }
+
+ .mobdd {
+  display: inline-block;
+  paing-top: -28px;
+  margin-left: 210px;
+ }
+
+ .link {
+  color: gray;
+  font-size: 14px;
+ }
+
+ .content {
+  border: 2px solid black;
+ }
+
+ /*new mobile*/
+
+ .landing-section {
+  background-color: #f8f9fa;
+ }
+
+ .mobile-section {
+  padding-left: 15px;
+  padding-right: 15px;
+ }
+
+ .txt-align {
+  text-align: center;
+ }
+
+ .landing-image {
+  background-color: #f8f9f2;
+  margin-top: 15px;
+ }
+
+ .btgm {
+  margin-top: 25px;
+  margin-bottom: 25px;
+ }
+
+ .store {
+  height: 50px;
+ }
+
+ .exp {
+  margin-top: 60px;
+  margin-bottom: 80px;
+ }
+
+ .imgexp {
+  padding-top: 80px;
+  width: 100%;
+ }
+
+ .mobile_section {
+  padding-top: 80px;
+  padding-left: 15px;
+  padding-right: 15px;
+ }
+
+ .mobile_section_2 {
+  padding-top: 80px;
+  background-clip: content-box;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: tan;
+ }
+
+ .getgmbt {
+  width: 75px;
+ }
+
+
+ /* tablet content */
+
+ .landing_section_tab_content {
+  padding-left: 50px;
+  height: 200px;
+  margin-bottom: auto;
+  margin-top: auto;
+ }
+
+ .landing_section_tablet {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #f8f9f2;
+ }
+
+ .landing_image_desktop {
+  padding-top: 30px;
+  width: 100%;
+ }
+
+ body {
+  padding-left: 15px;
+  padding-right: 15px;
+ }
+
+ .left-item {
+  width: 48%;
+  display: inline-block;
+ }
+
+ .right-item {
+  width: 50%;
+  display: inline-block;
+ }
+
+ .second_landing_section_tablet {
+  background-color: pink;
+  padding-left: 50px;
+ }
+
+ .full_width {
+  width: 100%;
+ }
+
+ .action_section_tablet {
+  padding-top: 60px;
+  padding-bottom: 60px;
+ }
+
+ .avoid_section_tablet {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #f8f9f2;
+ }
+
+ .action_avoid_section_tab_content {
+  height: 200px;
+  margin-bottom: auto;
+  margin-top: auto;
+ }
+
+ .half_width {
+  width: 98%;
+  margin-bottom: 85px;
+  margin-top: 100px;
+ }
+
+ .tablet-section-2 {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  background-clip: content-box;
+  padding-left: 15px;
+  padding-right: 15px;
+  brder: 2px solid black;
+ }
+
+ .tablet-section-2-h2p {
+  padding-left: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+ }
+
+ .tablet-section-2-content {
+  background-color: #f2f8fa;
+  padding-left: 0px;
+  padding-bottom: 15px;
+  padding-top: 20px;
+ }
+ 
