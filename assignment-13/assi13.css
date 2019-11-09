@@ -1,12 +1,28 @@
 .navvbar {
         margin-top: 20px;
-        background-color: gray;
+        background-color: black;
         color: white;
+}
+
+.topic-link {
+        display: inline-block;
+        background-color: transparent;
+        text-decoration: underline;
+        color: gray;
+}
+
+a {
+        color: gray;
+        background-color: transparent;
+}
+
+.shadow-border {
+        box-shadow: 0 2px 6px 0 rgba(0, 0, 0, .12), inset 0 -1px 0 0 #dadce0;
 }
 
 .imglogo {
         padding-top: 6px;
-        bkground-color: white;
+        filter: invert(100%);
 }
 
 .up {
@@ -17,7 +33,7 @@
 
 .more {
         display: inline-block;
-        paddng-left: -03px;
+        pdding-left: -03px;
         text-align: right;
 }
 
@@ -46,10 +62,63 @@
 .topic {
         color: gray;
         text-align: center;
-        background-color: #f2f2f2;
+        background-color: #f8f9fa;
         padding-top: 40px;
         padding-bottom: 40px;
         margin-bottom: 8px;
+}
+
+.tablet-border {
+        margin-top: 20px;
+        margin-bottom: 10px;
+        border: 1px solid #f2f2f2;
+
+}
+
+.tablet-margin {
+        margin-left: auto;
+        margin-right: auto;
+}
+
+.txt-align {
+        text-align: center;
+}
+
+.tablet-section-2 {
+        color: gray;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+
+}
+
+
+.tablet-opengl {
+        text-align: center;
+        color: gray;
+        marin: 10px;
+        padding-bottom: 10px;
+        border: 1px solid #f2f2f2;
+        font-size: 10px;
+}
+
+.tablet-flask {
+        text-align: center;
+        color: gray;
+        marin: 10px;
+        padding-bottom: 15px;
+        border: 1px solid #f2f2f2;
+        font-size: 10px;
+}
+
+.tablet-gradle {
+        text-align: center;
+        color: gray;
+        margin: px;
+        padding-bottom: 10px;
+        border: 1px solid #f2f2f2;
+        font-size: 10px;
 }
 
 .opengl {
@@ -58,6 +127,7 @@
         margin: 10px;
         padding-bottom: 10px;
         border: 1px solid #f2f2f2;
+        font-size: 10px;
 }
 
 .imgopen {
@@ -69,17 +139,21 @@
 .flask {
         text-align: center;
         color: gray;
+        argin-right: 5px;
         margin: 10px;
         padding-bottom: 10px;
         border: 1px solid #f2f2f2;
+        font-size: 10px;
 }
 
 .gradle {
         text-align: center;
         color: gray;
+        argin-right: 5px;
         margin: 10px;
         padding-bottom: 10px;
         border: 1px solid #f2f2f2;
+        font-size: 10px;
 }
 
 .fettop {
@@ -97,8 +171,14 @@ p {
 }
 
 .pp {
+        padding-left: 105px;
         margin-left: 10px;
         margin-top: -12px;
+}
+
+.star {
+
+        margin-top: 15px;
 }
 
 .hash {
@@ -108,7 +188,7 @@ p {
 
 }
 
-.bdrfea {
+.image-feature {
         padding-bottom: 15px;
         border-bottom: 1px solid #f2f2f2;
 }
@@ -118,7 +198,7 @@ p {
         padding-top: 20px;
         padding-bottom: 20px;
         padding-right: 25px;
-        padding-left: 25px;
+        padding-left: 28px;
 }
 
 
@@ -128,6 +208,7 @@ p {
 
 .imgfea {
         margin-top: 15px;
+        padding-left: 27px;
 }
 
 .load {
@@ -152,11 +233,12 @@ p {
 /* tablet */
 
 .texp {
-        margin-top: 13px;
-        margin-bottom: 13px;
+        padding-top: 13px;
+        padding-bottom: 13px;
 }
 
 .tfoot {
+        padding-bottom: 10px;
         padding-left: 10px;
         padding-right: 10px;
         font-size: 14px;
@@ -166,4 +248,12 @@ p {
 .ttopc {
         border-bottom: 1px solid blue;
         padding-bottom: 10px;
+}
+
+/*DESKTOP*/
+
+.desktop-popular-topics {
+        display: inline-block;
+        text-align: center;
+        argin-left: 20px;
 }
