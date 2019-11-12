@@ -170,46 +170,12 @@ p {
         margin-top: -10px;
 }
 
-.pp {
-        padding-left: 105px;
-        margin-left: 10px;
-        margin-top: -12px;
-}
-
-.star {
-
-        margin-top: 15px;
-}
-
-.hash {
-
-        text-align: center;
-        margin-top: 33px;
-
-}
-
 .image-feature {
         padding-bottom: 15px;
         border-bottom: 1px solid #f2f2f2;
 }
 
-.span {
-        background-color: #e6f9ff;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        padding-right: 25px;
-        padding-left: 28px;
-}
 
-
-.imgamp {
-        width: 55px;
-}
-
-.imgfea {
-        margin-top: 15px;
-        padding-left: 27px;
-}
 
 .load {
         text-align: center;
@@ -254,6 +220,73 @@ p {
 
 .desktop-popular-topics {
         display: inline-block;
-        text-align: center;
+        text-align: left;
         argin-left: 20px;
+}
+
+@media screen,
+(min-width:1024px) {
+        .hash {
+                display: inline-block;
+                text-align: center;
+                margin-top: 30px;
+                margin-bottom: 10px;
+        }
+        .span {
+                background-color: #e6f9ff;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                padding-right: 25px;
+                padding-left: 28px;
+
+        }
+        .star {
+
+                margin-top: 15px;
+        }
+        .pp {
+                margin-top: 15px;
+        }
+        .imgfea {
+                margin-top: 15px;
+                padding-left: 45px;
+                display: inline-block;
+                text-align: center;
+        }
+        .imgamp {
+                width: 55px;
+        }
+
+}
+
+
+
+@media screen,
+(min-width:576px) {
+        .hash {
+                text-align: center;
+                margin-top: 30px;
+                margin-bottom: 10px;
+        }
+        .span {
+                background-color: #e6f9ff;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                padding-right: 25px;
+                padding-left: 28px;
+        }
+        .pp {
+                padding-left: 105px;
+                margin-left: 10px;
+                margin-top: -13px;
+        }
+        .imgfea {
+                margin-top: 15px;
+                padding-left: 22px;
+        }
+        .imgamp {
+                width: 55px;
+        }
+
+
 }
