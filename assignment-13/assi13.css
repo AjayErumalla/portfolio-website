@@ -22,6 +22,7 @@ a {
 
 .imglogo {
         padding-top: 6px;
+        padding-bottom: 8px;
         filter: invert(100%);
 }
 

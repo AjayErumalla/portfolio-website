@@ -1,0 +1,31 @@
+body {
+    background-color: #f2f2fa;
+    font-size: 0px;
+}
+
+p {
+    font-size: 22px;
+}
+
+div {
+    margin-top: 10px;
+    background-color: white;
+    padding-top: 05px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+@media screen and (min-width:768px) {
+    .h1 {
+        padding-top: 15px;
+        padding-bottom: 30px;
+        border-bottom: 1px solid gray;
+
+        width: 100%;
+    }
+    .medium {
+        padding-top: 30px;
+        width: 50%;
+        display: inline-block;
+    }
+}

@@ -1,0 +1,16 @@
+body {
+    background-color: #f8f9f2;
+    padding-left: 70px;
+    padding-right: 50px;
+    padding-top: 100px;
+}
+
+span {
+    display: none;
+}
+
+@media screen and (min-width:768px) {
+    span {
+        background-color: lightgray;
+        display: block;
+    }
