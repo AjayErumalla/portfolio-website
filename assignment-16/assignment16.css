@@ -15,7 +15,7 @@ p {
     font-size: 20px;
 }
 
-.small {
+.medium1 {
     display: none;
 }
 
@@ -27,12 +27,11 @@ p {
         width: 50%;
         display: inline-block;
     }
-    .small {
-        paddig-top: 170px;
+    .medium1 {
         width: 50%;
         display: inline-block;
     }
-    .medium1 {
+    .small {
         display: none;
     }
 }
