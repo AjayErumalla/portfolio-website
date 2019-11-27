@@ -1,0 +1,66 @@
+@media screen and (max-width:576px) {
+    .contact {
+        margin-top: 10px;
+        color: skyblue;
+    }
+    span {
+        color: black;
+    }
+    .profile-image {
+        height: 5%;
+    }
+    .txt-align {
+        text-align: center;
+    }
+    .description {
+        padding-top: 30px;
+    }
+    .about {
+        font-size: 24px;
+    }
+    .uline {
+        border-bottom: 2px solid blue;
+    }
+    .col-sm-12 {
+        margin-left: 20px;
+        margin-right: 30px;
+    }
+    .about-content {
+        font-size: 20px;
+        font-family: serif;
+    }
+    .lightcolor {
+        color: grey;
+    }
+    .second-content {
+        margin-top: 25px;
+    }
+
+}
+
+
+@media screen and (min-width:768px) {
+    .contact {
+        margin: 10px;
+        color: skyblue;
+    }
+    span {
+        color: black;
+    }
+    .profile-image {
+        height: 4%;
+    }
+    .txt-align {
+        text-align: center;
+    }
+    .description {
+        padding-top: 150px;
+    }
+    .about {
+        font-size: 24px;
+    }
+    .uline {
+        border-bottom: 2px solid blue;
+    }
+
+}
