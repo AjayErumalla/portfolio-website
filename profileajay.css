@@ -1,7 +1,7 @@
 .contact {
     margin-top: 10px;
     color: skyblue;
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .mailandno {
@@ -14,11 +14,14 @@ span {
 }
 
 .profile-image {
-    height: 5%;
-    border-radius: 50%;
+    height: 3%;
+    border-radius: 80%;
     margin-top: 40px;
+}
 
-
+.education {
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .background-image {
@@ -40,10 +43,12 @@ span {
     margin-top: auto;
     margin-bottom: auto;
     text-align: center;
+    padding-bottom: 20px;
 }
 
 .about {
-    font-size: 24px;
+    margin-top: 20px;
+    font-size: 20px;
 }
 
 .uline {
@@ -132,17 +137,12 @@ span {
 }
 
 
+
 @media screen and (min-width:768px) {
 
     .contact {
         margin: 10px;
         color: skyblue;
-    }
-    span {
-        color: black;
-    }
-    .profile-image {
-        height: 4%;
     }
     .txt-align {
         text-align: center;
@@ -171,6 +171,10 @@ span {
     .background-image {
         background-repeat: no-repeat;
         background-image: transparent;
+    }
+    .education {
+        padding-left: 15px;
+        padding-right: 15px;
     }
 
 }
