@@ -1,7 +1,12 @@
 .contact {
     margin-top: 10px;
     color: skyblue;
-    font-size: 18pxpx;
+    font-size: 15px;
+}
+
+.mailandno {
+    display: inline-block;
+    text-align: right;
 }
 
 span {
@@ -21,7 +26,7 @@ span {
     background-image: url("static/images.png");
 }
 
-.padding {
+.paing {
     padding-bottom: 20px;
     padding-top: 20px;
 }
