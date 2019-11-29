@@ -46,6 +46,10 @@ span {
     padding-bottom: 20px;
 }
 
+.activities {
+    argin-left: 15px;
+}
+
 .about {
     margin-top: 20px;
     font-size: 20px;
@@ -67,6 +71,12 @@ span {
 .about-content {
     font-size: 20px;
     font-family: serif;
+}
+
+.cont-know {
+    margin: auto;
+    display: inline-block;
+    text-align: center;
 }
 
 .lightcolor {
@@ -100,16 +110,21 @@ span {
     padding-top: 5px;
 }
 
+.education {
+    margin-left: 30px;
+    marin-right: 30px;
+}
+
 .edu {
     margin-top: 10px;
-    padding: 20px;
+    pading: 20px;
     background-color: skyblue;
     text-align: center;
 }
 
 .edu-des {
     margin-top: 20px;
-    padding: 20px;
+    pading: 20px;
     height: 100px;
     background-color: transparent;
     background-image: linear-gradient(-90deg, skyblue, transparent);
@@ -119,6 +134,7 @@ span {
 
 .project {
     color: skyblue;
+    border-bottom: 2px solid gray;
 }
 
 .pro-title {
@@ -136,6 +152,11 @@ span {
     border: 1px solid grey;
 }
 
+.text-carousel {
+    margin-top: 10px;
+    height: auto;
+    background-color: #f0f8ff;
+}
 
 
 @media screen and (min-width:768px) {
@@ -148,12 +169,22 @@ span {
         text-align: center;
     }
     .description {
+        font-size: 30px;
+        color: orange;
         height: 50px;
         margin-top: auto;
         margin-bottom: auto;
         text-align: center;
     }
-
+    .profile-image {
+        width: 20px;
+        border-radius: 100%;
+        margin-top: 10px;
+    }
+    .background-image {
+        background-repeat: no-repeat;
+        background-image: url("static/network-1000x440.jpg");
+    }
     .about {
         font-size: 24px;
     }
